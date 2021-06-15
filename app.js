@@ -1,12 +1,10 @@
+const player = {
+    name: "jung",
+    points: 10,
+    fat: true,
+};
 
-const dayOfWeek = ["mon", "tue", "wed", "thu", "fri", "sat"];
-
-// Get Item frim Array
-console.log(dayOfWeek[4]);
-
-
-console.log(dayOfWeek);
-
-// And one more day to the array
-dayOfWeek.push("sun");
-console.log(dayOfWeek);
+console.log(player["name"]);
+console.log(player.name);
+console.log(player);
+player.lastName = "potato";
