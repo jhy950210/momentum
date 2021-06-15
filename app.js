@@ -1,12 +1,12 @@
-const a = 5;
-const b = 2;
-let myName = "wheeyoung";
 
-console.log(a + b);
-console.log(a * b);
-console.log(a / b);
-console.log("hello " + myName);
+const dayOfWeek = ["mon", "tue", "wed", "thu", "fri", "sat"];
 
-myName = "jung";
+// Get Item frim Array
+console.log(dayOfWeek[4]);
 
-console.log("new name is " + myName);
+
+console.log(dayOfWeek);
+
+// And one more day to the array
+dayOfWeek.push("sun");
+console.log(dayOfWeek);
